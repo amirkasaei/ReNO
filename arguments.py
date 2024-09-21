@@ -107,5 +107,7 @@ def parse_args():
     parser.add_argument("--device", type=str, help="Device to use", default="cuda")
     parser.add_argument("--device_id", type=int, help="Device ID to use", default=None)
 
+    parser.add_argument('-f')
+
     args = parser.parse_args()
     return args
